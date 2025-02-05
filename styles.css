@@ -1,0 +1,403 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  /* Navigation Bar */
+
+nav {
+    display: flex;
+    padding: 10px 35px;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch;
+    background: #59331D;
+    border-bottom: 10px solid #D98555;
+  }
+
+.logo {
+    width: 242px;
+    height: 161px;
+}
+
+.navButton-box {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    
+}
+
+.navButton {
+    display: inline-flex;
+    align-items: flex-end;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 30%;
+}
+
+.navButton-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navButton-box a :hover {
+    color: #D98555;
+    text-decoration: none;
+}
+
+/* About Us Content */
+
+#aboutUs-box {
+    display: flex;
+    width: 70%;
+    padding: 73px 142px;
+    align-items: center;
+    gap: 52px;
+}
+
+.aboutUs-content {
+    display: flex;
+    width: 557px;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    flex-shrink: 0;
+}
+
+.heading {
+    width: 557px;
+    align-self: stretch;
+    color: #082B59;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aboutUs-text {
+    height: 50%;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: #131D26;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutUs-button {
+    display: flex;
+    width: 161px;
+    height: 53px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #082B59;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a button:link {
+    text-decoration: none;
+}
+
+a button:hover {
+    text-decoration: none;
+    border: 3px solid #082B59;
+    background-color: #FFF;
+    color: #082B59;
+}
+
+.aboutUs-image {
+    width: 290%;
+    height: 290%;
+    flex-shrink: 0;
+    border-radius: 30px;
+    
+}
+
+/*Products Content*/
+
+#itemGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+.align-product {
+    position: relative;
+    left: 35%;
+}
+
+.itemBox {
+    width: 100%;
+    height: 100%;
+    padding: 0px 83px;
+  }
+ 
+  .itemHead {
+    color: #082B59;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+  }
+  
+  .itemText {
+    width: 355px;
+    height: 260px;
+    color: #222B34;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .itemImage {
+    width: 100%;
+    height: 413.875px;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+
+  /* Contact Us Content*/
+
+  #contact {
+    display: flex;
+    padding: 69px 0px;
+    align-items: center;
+    gap: 250px;
+    position: relative;
+    left: 15%;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+
+  .contactText {
+    display: inline-flex;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    color: #131D26;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px; 
+  }
+
+  .contactNumber {
+    color: #D98555;
+  }
+
+  .contactImage {
+    width: 500px;
+    height: 446px;
+    border-radius: 29px;
+  }
+
+/* footer */
+
+.footer-border {
+    height: 50%;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    padding: 18px 203px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px 38px;
+    flex-shrink: 0;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background: #59331D;
+}
+
+.disclaimer {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.linkIcon {
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    position: relative;
+    bottom: 40px
+}
+
+/* Responsive Media */
+
+@media screen and (max-width: 1400px) {
+  
+}
+
+@media screen and (max-width: 834px) {
+  nav {
+    padding: 5px 17.5px;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .navButton-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #aboutUs-box {
+    display: flex;
+    width: 815px;
+    padding: 73px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+  }
+
+  .aboutUs-image {
+    width: 509px;
+    height: 380px;
+  }
+
+  #itemGrid {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    ;
+  }
+
+  .align-product {
+    left: 15%;
+  }
+
+  .itemBox {
+    width: 70%;
+    padding: 30px;
+  }
+
+  #contact {
+    flex-direction: column;
+    left: 1%;
+    gap: 100px;
+  }
+
+  .itemHead {
+    font-size: 24px;
+  }
+
+  .itemText {
+    font-size: 21px;
+  }
+
+  .itemImage {
+    height: 70%;
+    width: 100%;
+  }
+}
+
+@media screen and (nax-width: 820px) {
+  nav {
+    padding: 5px 17.5px;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .navButton-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #aboutUs-box {
+    display: flex;
+    width: 815px;
+    padding: 73px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+  }
+
+  .aboutUs-image {
+    width: 509px;
+    height: 380px;
+  }
+
+  #itemGrid {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .align-product {
+    left: 15%;
+  }
+
+  .itemBox {
+    width: 70%;
+    padding: 30px;
+  }
+
+  #contact {
+    flex-direction: column;
+    left: 1%;
+    gap: 100px;
+  }
+
+  .itemHead {
+    font-size: 19px;
+  }
+
+  .itemText {
+    font-size: 15px;
+  }
+
+  .itemImage {
+    height: 70%;
+    width: 10%;
+  }
+}

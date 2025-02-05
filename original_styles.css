@@ -1,0 +1,393 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+body {
+    font-family: 'Lato', sans-serif;
+}
+    
+    /* Navigation Bar */
+    
+  
+  #navBar {
+    display: flex;
+    padding: 26px 274px 21px 54px;
+    align-items: center;
+    gap: 190px;
+    align-self: stretch;
+    background-color: #BF7A53;
+  }
+  
+  .linked-image {
+    padding: 20px;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .navButton {
+    display: flex;
+    padding: 17px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #884D2B;
+    border-radius: 10px;
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* Logo Image */
+  
+  .cover {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 100%;
+    height: 1100px;
+    background-image: url("https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg");
+    background-size: cover;
+  }
+  
+  .logo-image {
+    display: flex;
+    max-width: 650px;
+    max-height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 720px;
+  }
+  
+  .logo-text {
+    height: 46.247px;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 1100px;
+    left: 135px
+    
+  }
+  
+  /* About Section */
+  
+  .about-background {
+    display: flex;
+    padding: 140px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: #59331D;
+  }
+  
+  .about-border {
+    display: flex;
+    width: 100%;
+    padding: 80px;
+    padding-bottom: 80px;
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+    background: #BA7148;
+  }
+  
+  .about-box {
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    align-self: stretch;
+    background: white;
+    width: 99%;
+    height: 100%;
+  }
+  
+  .about-image {
+    width: 125%;
+    height: auto;
+  }
+  
+  .about-textbox {
+    display: flex;
+    padding: 0px 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    position: relative;
+    left: 4.5%;
+  }
+  
+  .about-heading {
+    width: 178.107px;
+    height: 50px;
+    color: #082B59;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  .about-text {
+    width: 335px;
+    color: #131D26;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  .about-button {
+    width: 108px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #131D26;
+    background: #FFF;
+    color: #131D26;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 23px;
+  }
+  
+  /* Product Bar */
+  
+  .product-box {
+    display: flex;
+    width: 100%;
+    padding-bottom: 112px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 112px;
+    background: #59331D;
+    align-self: stretch;
+  }
+  
+  .product-headingBox {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    padding: 25px 0px 26px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #794120;
+    flex-direction: column;
+  }
+  
+  .product-heading {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 20px;
+  }
+  
+  .product-text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 35px;
+  }
+  
+  /* Item Grid */
+  
+    #itemGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    
+    .itemImage {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .itemBox {
+      width: 100%;
+      height: 100%;
+      background-color: #99542D;
+      padding: 37px 83px;
+    }
+   
+    .itemHead {
+      color: #FFF;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    
+    .itemText {
+      color: #FFF;
+      text-align: center;
+      font-family: Lato;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  
+    /* Purchasing */
+  
+  .purchasingLayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  .purchasingImage {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .purchasingBorder {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 98px 70px 95px;
+    align-items: center;
+    gap: 10px;
+    background: #E38D5C;
+  }
+  
+  .purchasingBox {
+    display: flex;
+    width: 530px;
+    height: 432px;
+    padding: 72px 90px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+    background: #FFF;
+  }
+  
+  .purchasingHeading {
+    display: flex;
+    justify-content: center;
+    width: 192px;
+    color: #082B59;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 20%;
+  }
+  
+  .purchasingText {
+    display: flex;
+    width: 370px;
+    height: 1px;
+    flex-shrink: 0;
+    color: #131D26;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 45%;
+  }
+
+  .purchasingList {
+    text-align: end;
+    color: #131D26;
+    text-align: start;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 50%;
+    left: 3%;
+  }
+    
+   /* footer */
+    
+   .footer {
+      display: flex;
+      width: 100%;
+      height: 350px;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #59331D;
+    }
+    
+    .footerHeader {
+      color: #FFF;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    
+    .footerText {
+      color: #FFF;
+      text-align: center;
+      font-family: Lato;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    
+    .footerCopy {
+      color: #FFF;
+      text-align: center;
+      font-family: Lato;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    @media only screen and (max-width:767px){
+      #sidebar, #map_canvas, #main, #header,#nav {
+        display:block !important;
+      }
+    }
